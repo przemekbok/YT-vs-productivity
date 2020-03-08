@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="whitelist.css" />
+  </head>
+  <body class="container">
+    <label>Timer</label>
+    <div class="input-container">
+      <input type="number" id="hours" min="0" max="12" value="0" />
+      <input type="number" id="minutes" min="0" max="60" value="0" />
+      <input type="number" id="seconds" min="0" max="60" value="0" />
+    </div>
+    <label>Whitelist for playlists, double click list item to remove</label>
+    <div class="input-container">
+      <input id="wishlistInput" />
+      <button id="apply">Add</button>
+    </div>
+    <select id="whitelist" size="6"> </select>
+    <script src="whitelist.js"></script>
+  </body>
+</html>
